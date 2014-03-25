@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5A1BA6D18E066160005A2EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A1BA6C18E066160005A2EB /* Foundation.framework */; };
+		D5A1BA6F18E066160005A2EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A1BA6E18E066160005A2EB /* CoreGraphics.framework */; };
+		D5A1BA7118E066160005A2EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A1BA7018E066160005A2EB /* UIKit.framework */; };
+		D5A1BA7718E066160005A2EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5A1BA7518E066160005A2EB /* InfoPlist.strings */; };
+		D5A1BA7918E066160005A2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A1BA7818E066160005A2EB /* main.m */; };
+		D5A1BA7D18E066160005A2EB /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A1BA7C18E066160005A2EB /* RCAppDelegate.m */; };
+		D5A1BA8018E066160005A2EB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A1BA7E18E066160005A2EB /* Main_iPhone.storyboard */; };
+		D5A1BA8318E066160005A2EB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A1BA8118E066160005A2EB /* Main_iPad.storyboard */; };
+		D5A1BA8618E066160005A2EB /* RCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A1BA8518E066160005A2EB /* RCViewController.m */; };
+		D5A1BA8818E066160005A2EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A1BA8718E066160005A2EB /* Images.xcassets */; };
+		D5A1BA8F18E066160005A2EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A1BA8E18E066160005A2EB /* XCTest.framework */; };
+		D5A1BA9018E066160005A2EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A1BA6C18E066160005A2EB /* Foundation.framework */; };
+		D5A1BA9118E066160005A2EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A1BA7018E066160005A2EB /* UIKit.framework */; };
+		D5A1BA9918E066160005A2EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5A1BA9718E066160005A2EB /* InfoPlist.strings */; };
+		D5A1BA9B18E066160005A2EB /* RCVisionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A1BA9A18E066160005A2EB /* RCVisionTests.m */; };
+		D5A1BAA618E0681D0005A2EB /* RCToolkit.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5A1BAA518E0681D0005A2EB /* RCToolkit.mm */; };
+		D5A1BAAB18E06C4F0005A2EB /* background-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A1BAA718E06C4F0005A2EB /* background-568h.png */; };
+		D5A1BAAC18E06C4F0005A2EB /* background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A1BAA818E06C4F0005A2EB /* background-568h@2x.png */; };
+		D5A1BAAD18E06C4F0005A2EB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A1BAA918E06C4F0005A2EB /* background.png */; };
+		D5A1BAAE18E06C4F0005A2EB /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A1BAAA18E06C4F0005A2EB /* background@2x.png */; };
+		D967CAE38A5842258622AA7A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0922C21C4685469AA6C0ADD7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5A1BA9218E066160005A2EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A1BA6118E066160005A2EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A1BA6818E066160005A2EB;
+			remoteInfo = RCVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0922C21C4685469AA6C0ADD7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C58DDF198D4200937C1798 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D5A1BA6918E066160005A2EB /* RCVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A1BA6C18E066160005A2EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5A1BA6E18E066160005A2EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5A1BA7018E066160005A2EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5A1BA7418E066160005A2EB /* RCVision-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RCVision-Info.plist"; sourceTree = "<group>"; };
+		D5A1BA7618E066160005A2EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5A1BA7818E066160005A2EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5A1BA7A18E066160005A2EB /* RCVision-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCVision-Prefix.pch"; sourceTree = "<group>"; };
+		D5A1BA7B18E066160005A2EB /* RCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
+		D5A1BA7C18E066160005A2EB /* RCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAppDelegate.m; sourceTree = "<group>"; };
+		D5A1BA7F18E066160005A2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D5A1BA8218E066160005A2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D5A1BA8418E066160005A2EB /* RCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCViewController.h; sourceTree = "<group>"; };
+		D5A1BA8518E066160005A2EB /* RCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCViewController.m; sourceTree = "<group>"; };
+		D5A1BA8718E066160005A2EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5A1BA8D18E066160005A2EB /* RCVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A1BA8E18E066160005A2EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D5A1BA9618E066160005A2EB /* RCVisionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RCVisionTests-Info.plist"; sourceTree = "<group>"; };
+		D5A1BA9818E066160005A2EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5A1BA9A18E066160005A2EB /* RCVisionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCVisionTests.m; sourceTree = "<group>"; };
+		D5A1BAA418E0681D0005A2EB /* RCToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCToolkit.h; path = ToolKit/RCToolkit.h; sourceTree = "<group>"; };
+		D5A1BAA518E0681D0005A2EB /* RCToolkit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RCToolkit.mm; path = ToolKit/RCToolkit.mm; sourceTree = "<group>"; };
+		D5A1BAA718E06C4F0005A2EB /* background-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568h.png"; sourceTree = "<group>"; };
+		D5A1BAA818E06C4F0005A2EB /* background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568h@2x.png"; sourceTree = "<group>"; };
+		D5A1BAA918E06C4F0005A2EB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		D5A1BAAA18E06C4F0005A2EB /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5A1BA6618E066160005A2EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A1BA6F18E066160005A2EB /* CoreGraphics.framework in Frameworks */,
+				D5A1BA7118E066160005A2EB /* UIKit.framework in Frameworks */,
+				D5A1BA6D18E066160005A2EB /* Foundation.framework in Frameworks */,
+				D967CAE38A5842258622AA7A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A1BA8A18E066160005A2EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A1BA8F18E066160005A2EB /* XCTest.framework in Frameworks */,
+				D5A1BA9118E066160005A2EB /* UIKit.framework in Frameworks */,
+				D5A1BA9018E066160005A2EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5A1BA6018E066160005A2EB = {
+			isa = PBXGroup;
+			children = (
+				D5A1BA7218E066160005A2EB /* RCVision */,
+				D5A1BA9418E066160005A2EB /* RCVisionTests */,
+				D5A1BA6B18E066160005A2EB /* Frameworks */,
+				D5A1BA6A18E066160005A2EB /* Products */,
+				28C58DDF198D4200937C1798 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A1BA6A18E066160005A2EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5A1BA6918E066160005A2EB /* RCVision.app */,
+				D5A1BA8D18E066160005A2EB /* RCVisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5A1BA6B18E066160005A2EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5A1BA6C18E066160005A2EB /* Foundation.framework */,
+				D5A1BA6E18E066160005A2EB /* CoreGraphics.framework */,
+				D5A1BA7018E066160005A2EB /* UIKit.framework */,
+				D5A1BA8E18E066160005A2EB /* XCTest.framework */,
+				0922C21C4685469AA6C0ADD7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A1BA7218E066160005A2EB /* RCVision */ = {
+			isa = PBXGroup;
+			children = (
+				D5A1BAA718E06C4F0005A2EB /* background-568h.png */,
+				D5A1BAA818E06C4F0005A2EB /* background-568h@2x.png */,
+				D5A1BAA918E06C4F0005A2EB /* background.png */,
+				D5A1BAAA18E06C4F0005A2EB /* background@2x.png */,
+				D5A1BA7B18E066160005A2EB /* RCAppDelegate.h */,
+				D5A1BA7C18E066160005A2EB /* RCAppDelegate.m */,
+				D5A1BA7E18E066160005A2EB /* Main_iPhone.storyboard */,
+				D5A1BA8118E066160005A2EB /* Main_iPad.storyboard */,
+				D5A1BA8418E066160005A2EB /* RCViewController.h */,
+				D5A1BA8518E066160005A2EB /* RCViewController.m */,
+				D5A1BA8718E066160005A2EB /* Images.xcassets */,
+				D5A1BA7318E066160005A2EB /* Supporting Files */,
+				D5A1BAA418E0681D0005A2EB /* RCToolkit.h */,
+				D5A1BAA518E0681D0005A2EB /* RCToolkit.mm */,
+			);
+			path = RCVision;
+			sourceTree = "<group>";
+		};
+		D5A1BA7318E066160005A2EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5A1BA7418E066160005A2EB /* RCVision-Info.plist */,
+				D5A1BA7518E066160005A2EB /* InfoPlist.strings */,
+				D5A1BA7818E066160005A2EB /* main.m */,
+				D5A1BA7A18E066160005A2EB /* RCVision-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5A1BA9418E066160005A2EB /* RCVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A1BA9A18E066160005A2EB /* RCVisionTests.m */,
+				D5A1BA9518E066160005A2EB /* Supporting Files */,
+			);
+			path = RCVisionTests;
+			sourceTree = "<group>";
+		};
+		D5A1BA9518E066160005A2EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5A1BA9618E066160005A2EB /* RCVisionTests-Info.plist */,
+				D5A1BA9718E066160005A2EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5A1BA6818E066160005A2EB /* RCVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A1BA9E18E066160005A2EB /* Build configuration list for PBXNativeTarget "RCVision" */;
+			buildPhases = (
+				B758FA655C95417995AFA488 /* Check Pods Manifest.lock */,
+				D5A1BA6518E066160005A2EB /* Sources */,
+				D5A1BA6618E066160005A2EB /* Frameworks */,
+				D5A1BA6718E066160005A2EB /* Resources */,
+				7E56F53F1BC2436F9136B5F0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCVision;
+			productName = RCVision;
+			productReference = D5A1BA6918E066160005A2EB /* RCVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5A1BA8C18E066160005A2EB /* RCVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A1BAA118E066160005A2EB /* Build configuration list for PBXNativeTarget "RCVisionTests" */;
+			buildPhases = (
+				D5A1BA8918E066160005A2EB /* Sources */,
+				D5A1BA8A18E066160005A2EB /* Frameworks */,
+				D5A1BA8B18E066160005A2EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A1BA9318E066160005A2EB /* PBXTargetDependency */,
+			);
+			name = RCVisionTests;
+			productName = RCVisionTests;
+			productReference = D5A1BA8D18E066160005A2EB /* RCVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5A1BA6118E066160005A2EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Eyro;
+				TargetAttributes = {
+					D5A1BA8C18E066160005A2EB = {
+						TestTargetID = D5A1BA6818E066160005A2EB;
+					};
+				};
+			};
+			buildConfigurationList = D5A1BA6418E066160005A2EB /* Build configuration list for PBXProject "RCVision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5A1BA6018E066160005A2EB;
+			productRefGroup = D5A1BA6A18E066160005A2EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5A1BA6818E066160005A2EB /* RCVision */,
+				D5A1BA8C18E066160005A2EB /* RCVisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5A1BA6718E066160005A2EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A1BA8318E066160005A2EB /* Main_iPad.storyboard in Resources */,
+				D5A1BA8818E066160005A2EB /* Images.xcassets in Resources */,
+				D5A1BAAD18E06C4F0005A2EB /* background.png in Resources */,
+				D5A1BA8018E066160005A2EB /* Main_iPhone.storyboard in Resources */,
+				D5A1BA7718E066160005A2EB /* InfoPlist.strings in Resources */,
+				D5A1BAAB18E06C4F0005A2EB /* background-568h.png in Resources */,
+				D5A1BAAE18E06C4F0005A2EB /* background@2x.png in Resources */,
+				D5A1BAAC18E06C4F0005A2EB /* background-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A1BA8B18E066160005A2EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A1BA9918E066160005A2EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E56F53F1BC2436F9136B5F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B758FA655C95417995AFA488 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5A1BA6518E066160005A2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A1BA7918E066160005A2EB /* main.m in Sources */,
+				D5A1BAA618E0681D0005A2EB /* RCToolkit.mm in Sources */,
+				D5A1BA7D18E066160005A2EB /* RCAppDelegate.m in Sources */,
+				D5A1BA8618E066160005A2EB /* RCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A1BA8918E066160005A2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A1BA9B18E066160005A2EB /* RCVisionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5A1BA9318E066160005A2EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A1BA6818E066160005A2EB /* RCVision */;
+			targetProxy = D5A1BA9218E066160005A2EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5A1BA7518E066160005A2EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A1BA7618E066160005A2EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5A1BA7E18E066160005A2EB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A1BA7F18E066160005A2EB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D5A1BA8118E066160005A2EB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A1BA8218E066160005A2EB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D5A1BA9718E066160005A2EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A1BA9818E066160005A2EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5A1BA9C18E066160005A2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5A1BA9D18E066160005A2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5A1BA9F18E066160005A2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C58DDF198D4200937C1798 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RCVision/RCVision-Prefix.pch";
+				INFOPLIST_FILE = "RCVision/RCVision-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5A1BAA018E066160005A2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C58DDF198D4200937C1798 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RCVision/RCVision-Prefix.pch";
+				INFOPLIST_FILE = "RCVision/RCVision-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D5A1BAA218E066160005A2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RCVision.app/RCVision";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RCVision/RCVision-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RCVisionTests/RCVisionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D5A1BAA318E066160005A2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RCVision.app/RCVision";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RCVision/RCVision-Prefix.pch";
+				INFOPLIST_FILE = "RCVisionTests/RCVisionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5A1BA6418E066160005A2EB /* Build configuration list for PBXProject "RCVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A1BA9C18E066160005A2EB /* Debug */,
+				D5A1BA9D18E066160005A2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A1BA9E18E066160005A2EB /* Build configuration list for PBXNativeTarget "RCVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A1BA9F18E066160005A2EB /* Debug */,
+				D5A1BAA018E066160005A2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A1BAA118E066160005A2EB /* Build configuration list for PBXNativeTarget "RCVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A1BAA218E066160005A2EB /* Debug */,
+				D5A1BAA318E066160005A2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5A1BA6118E066160005A2EB /* Project object */;
+}
