@@ -1,4 +1,4 @@
 rcvision
 ========
 
-iOS OpenCV playground
+iOS OpenCV playground.
