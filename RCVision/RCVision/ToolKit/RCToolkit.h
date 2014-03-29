@@ -19,4 +19,5 @@
  @return converted image.
  */
 -(UIImage*) convertToGray:(UIImage*) image;
+
 @end
