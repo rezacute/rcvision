@@ -9,6 +9,7 @@ This project simply an iOS application that heavily expose OpenCV functionalitie
 ##Installation and usage
 ####Dependency
 This project needs CocoaPods installed on your Mac OSX.
+Lease visit http://cocoapods.org/ for more details.
 
 ####Installation
 ```
